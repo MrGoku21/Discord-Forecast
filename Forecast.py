@@ -19,8 +19,8 @@ async def forecast(self, ctx, *, country):
     temp = w.get_temperature(unit='celsius') # You can use others here. 
     status = w.get_status()
     statusAD = w.get_detailed_status()
-    pfp = w.get_weather_icon_url()
-    avgTemp=temp['temp']
+    pfp = w.get_weather_icon_url() # Gets the icon suited for the current weather
+    avgTemp=temp['temp'] # Rounds up averege weather instead of giving a full deatialed one
     humid = w.get_humidity()
     w_speed = w.get_wind()
     wind=w_speed['speed']
