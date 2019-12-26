@@ -36,4 +36,4 @@ async def forecast(self, ctx, *, country):
     await ctx.send(embed=embed)
 
 
-client.run("NjIyODE1MTYzMTIwMjIyMjA5.XaxA0Q.mErTJVSJzVymt-FOVGaJB_nzOww")
+client.run("")
