@@ -15,7 +15,7 @@ bot = commands.Bot(command_prefix = "!", help_command=None)
 @bot.command() # A basic weather bot
 async def forecast(self, ctx, *, country):
     observation = owm.weather_at_place(country) # This is where the bot finds info about the weather in the typed in country
-     w = observation.get_weather()
+    w = observation.get_weather()
     temp = w.get_temperature(unit='celsius') # You can use others here. 
     status = w.get_status()
     statusAD = w.get_detailed_status()
