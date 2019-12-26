@@ -7,4 +7,4 @@ This is where you get your API token
 After that you're done!
 
 Enjoy
-**Credits: Caasi#0001 and aidzman#2793
+**Credits: Caasi#0001 and aidzman#279**
